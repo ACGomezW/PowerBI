@@ -1,11 +1,15 @@
-# PowerBI
-## Proyecto de Análisis de datos
+# Análisis Financiero con PowerBI
+# Este proyecto ha sido desarrollado por Alicia Cecilia Gómez Wallingre  
+
+Mail:cecigomezwallingre@gmail.com  
+[LinkedIn](https://www.linkedin.com/in/ceciliagomezwallingre)
+
 ### Contexto
 Este proyecto tiene como finalidad realizar diferentes análisis con enfoque financiero. Se trata de un dataset que contiene diferentes tablas, que a su vez contienen diferenctes campos de información, ya organizadas con el fin de poder realizar un análisis de negocio. La información del contenido de las tablas se detalla en el apartado final. 
 El análisis realizado fue el siguiente: 
-
+* Se efectúa un Mockup como modelo del análisis a realizar
 * En primer lugar se crearon todas las relaciones en la vista de Diagrama Entidad Relación.
-* Posteriormente se crearon las siguientes medidas:
+* Posteriormente se desarrollaron los siguientes puntos:
    
 #### Medidas DAX
 
@@ -47,35 +51,34 @@ dcategoryProducts (categoría) en una matriz (continente> categoría);
 
 #### Conceptos de Front-End
 
-1) En la primer página se crean botones de navegación para cambiar entre las 2 pestañas diferentes. Estos botones están en ambas pestañas.
+1) En la página 'Informes' se crean botones de navegación para cambiar entre las 2 pestañas diferentes. Estos botones están en ambas pestañas.
 2) Se creó un menú "Suspendido/Retráctil" colocando los filtros (visuales de segmentación) de Año, AñoMes, etc. dentro de él. Estos filtros están en ambas pestañas y sincronizados.
-3) Se crea en la primer página, una medida que se pueda usar en un objeto visual de filtro (segmentador) para seleccionar entre las medidas Ventas brutas o Costo total.
-4) En la primer página, se crea un gráfico para analizar la evolución de las ventas brutas vs el costo total.
-5) En la primer página se muestra que promociones tuvieron el mayor retorno de ventas.
-6) En la primer página, se crea un selector de segmentación para un gráfico de barras horizontales, pudiendo cambiar la segmentación entre País, Tienda y Categoría de Producto.
-7) En la segunda página, se crea su análisis de datos. Aquí evaluaremos tus habilidades analíticas y narrativas.
+3) Se crea en la misma página, una medida que se pueda usar en un objeto visual de filtro (segmentador) para seleccionar entre las medidas Ventas brutas o Costo total.
+4) También en esa página, se crea un gráfico para analizar la evolución de las ventas brutas vs el costo total.
+5) Se muestra que promociones tuvieron el mayor retorno de ventas.
+6) Se crea un selector de segmentación para un gráfico de barras horizontales, pudiendo cambiar la segmentación entre País, Tienda y Categoría de Producto.
+7) En la página 'Parámetros', se realiza un análisis financieros segmentando fechas y conceptos, con análisis de texto dinámico.
+8) Se realizan dos KPI's que analicen el comparativo de ventas brutas y ventas con descuento, y el aumento del 5% respecto al año anterior.
 
+#### Contenido de tablas
 
-
-2. Replique o front da aba Gabarito Front-end 3.
-A ideia deste exercício 2 é avaliar a capacidade de replicação de mockups/sketches. Este é um processo da consultoria, então tente executar o mais parecido possível com a imagem. Esta será uma terceira aba além das duas já criadas no exercício 1.
-2. Replica el frente de la pestaña Plantilla Front-end 3.
-La idea de este ejercicio 2 es evaluar la capacidad de replicar maquetas/bocetos. Este es un proceso de consultoría, así que trate de ejecutarlo lo más cerca posible de la imagen. Esta será una tercera pestaña además de las dos ya creadas en el ejercicio 1.
-Las tablas a su vez contienen diferentes campos de información: 
-Categoría Productos
+##### Categoría Productos
 * Categoría
 * IdCategoría
-Iconos Productos
+  
+##### Iconos Productos
 * Categoría
 * Icono URL
-Localidades
+
+##### Localidades
 * Ciudad
 * Continente
 * Estado
 * IDLocalidad
 * País
 * TipoLocalidad
-Tienda
+  
+##### Tienda
 * Fecha Apertura
 * Fecha Cierre
 * IdLocalidad
@@ -85,14 +88,16 @@ Tienda
 * Status
 * Tamaño Tienda
 * Tipo tienda
-Productos
+  
+##### Productos
 * Clasificación
 * Color
 * IdProducto
 * IdSubcategoría
 * Marca
 * Producto
-Promociones
+  
+##### Promociones
 * Código Promoción
 * Fecha Inicio
 * Fecha Fin
@@ -100,11 +105,13 @@ Promociones
 * Porcentaje de descuento
 * Promoción
 * Tipo Promoción
-SubCategoría de Productos
+  
+##### SubCategoría de Productos
 * IdCategoría
 * IdSubcategoría
 * Subcategoría
-Ventas
+  
+##### Ventas
 * Código Venta
 * Costo unitario
 * Fecha
@@ -115,6 +122,8 @@ Ventas
 * Precio Unitario
 * Cantidad
 
+### Conclusión
+El presente análisis se centra en explorar las funciones de PowerBi con el fin de realizar análisis financieros que permitan a la empresa una toma de decisiones mas acertado. 
 
 
 
