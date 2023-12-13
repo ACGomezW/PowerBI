@@ -5,7 +5,7 @@ Mail:cecigomezwallingre@gmail.com
 [LinkedIn](https://www.linkedin.com/in/ceciliagomezwallingre)
 
 ### Contexto
-Este proyecto tiene como finalidad realizar diferentes análisis con enfoque financiero. Se trata de un dataset que contiene diferentes tablas, que a su vez contienen diferenctes campos de información, ya organizadas con el fin de poder realizar un análisis de negocio. La información del contenido de las tablas se detalla en el apartado final. 
+Este proyecto tiene como finalidad realizar diferentes análisis con enfoque financiero. Se trata de un dataset que contiene diferentes tablas, (que a su vez contienen campos de información) ya organizadas con el fin de poder realizar un análisis de negocio. La información del contenido de las tablas se detalla en el apartado final. 
 El análisis realizado fue el siguiente: 
 * Se efectúa un Mockup como modelo del análisis a realizar
 * En primer lugar se crearon todas las relaciones en la vista de Diagrama Entidad Relación.
@@ -123,7 +123,7 @@ dcategoryProducts (categoría) en una matriz (continente> categoría);
 * Cantidad
 
 ### Conclusión
-El presente análisis se centra en explorar las funciones de PowerBi con el fin de realizar análisis financieros que permitan a la empresa una toma de decisiones mas acertado. 
+El presente análisis se centra en explorar las funciones de PowerBi con el fin de realizar análisis financieros que permitan a la empresa una toma de decisiones mas acertadas. 
 
 
 
