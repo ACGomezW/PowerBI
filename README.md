@@ -1,5 +1,5 @@
 # Análisis Financiero con PowerBI
-# Este proyecto ha sido desarrollado por Alicia Cecilia Gómez Wallingre  
+#### Este proyecto ha sido desarrollado por Alicia Cecilia Gómez Wallingre  
 
 Mail:cecigomezwallingre@gmail.com  
 [LinkedIn](https://www.linkedin.com/in/ceciliagomezwallingre)
